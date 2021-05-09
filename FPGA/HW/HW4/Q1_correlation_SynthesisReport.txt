@@ -1,0 +1,451 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.09 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.09 secs
+ 
+--> Reading design: correlation.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "correlation.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "correlation"
+Output Format                      : NGC
+Target Device                      : xc6slx16-3-csg324
+
+---- Source Options
+Top Module Name                    : correlation
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 16
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Analyzing Verilog file "C:\Users\msaee\Documents\ISE14.7\Sara\Q1.v" into library work
+Parsing module <correlation>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating module <correlation>.
+WARNING:HDLCompiler:413 - "C:\Users\msaee\Documents\ISE14.7\Sara\Q1.v" Line 61: Result of 5-bit expression is truncated to fit in 4-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\msaee\Documents\ISE14.7\Sara\Q1.v" Line 45: Result of 5-bit expression is truncated to fit in 4-bit target.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <correlation>.
+    Related source file is "C:\Users\msaee\Documents\ISE14.7\Sara\Q1.v".
+        N = 8
+    Found 1-bit register for signal <Out_cr<8>>.
+    Found 1-bit register for signal <Out_cr<7>>.
+    Found 1-bit register for signal <Out_cr<6>>.
+    Found 1-bit register for signal <Out_cr<5>>.
+    Found 1-bit register for signal <Out_cr<4>>.
+    Found 1-bit register for signal <Out_cr<3>>.
+    Found 1-bit register for signal <Out_cr<2>>.
+    Found 1-bit register for signal <Out_cr<1>>.
+    Found 1-bit register for signal <Out_cr<0>>.
+    Found 2-bit register for signal <Correct_gues>.
+    Found 4-bit register for signal <ctr>.
+    Found 1-bit register for signal <Out_cr<9>>.
+    Found 4-bit adder for signal <GND_1_o_GND_1_o_add_4_OUT> created at line 61.
+    Found 4-bit adder for signal <GND_1_o_GND_1_o_add_7_OUT> created at line 61.
+    Found 4-bit adder for signal <GND_1_o_GND_1_o_add_10_OUT> created at line 61.
+    Found 4-bit adder for signal <GND_1_o_GND_1_o_add_13_OUT> created at line 61.
+    Found 4-bit adder for signal <GND_1_o_GND_1_o_add_16_OUT> created at line 61.
+    Found 4-bit adder for signal <GND_1_o_GND_1_o_add_19_OUT> created at line 61.
+    Found 4-bit adder for signal <GND_1_o_GND_1_o_add_22_OUT> created at line 61.
+    Found 4-bit adder for signal <GND_1_o_GND_1_o_add_27_OUT> created at line 61.
+    Found 4-bit adder for signal <GND_1_o_GND_1_o_add_30_OUT> created at line 61.
+    Found 4-bit adder for signal <GND_1_o_GND_1_o_add_33_OUT> created at line 61.
+    Found 4-bit adder for signal <GND_1_o_GND_1_o_add_36_OUT> created at line 61.
+    Found 4-bit adder for signal <GND_1_o_GND_1_o_add_39_OUT> created at line 61.
+    Found 4-bit adder for signal <GND_1_o_GND_1_o_add_42_OUT> created at line 61.
+    Found 4-bit adder for signal <GND_1_o_GND_1_o_add_45_OUT> created at line 61.
+    Found 5-bit adder for signal <n0154> created at line 43.
+    Found 4-bit adder for signal <ctr[3]_GND_1_o_add_60_OUT> created at line 45.
+    Found 1-bit comparator equal for signal <First_num[0]_Target_num[0]_equal_2_o> created at line 60
+    Found 1-bit comparator equal for signal <First_num[1]_Target_num[1]_equal_4_o> created at line 60
+    Found 1-bit comparator equal for signal <First_num[2]_Target_num[2]_equal_7_o> created at line 60
+    Found 1-bit comparator equal for signal <First_num[3]_Target_num[3]_equal_10_o> created at line 60
+    Found 1-bit comparator equal for signal <First_num[4]_Target_num[4]_equal_13_o> created at line 60
+    Found 1-bit comparator equal for signal <First_num[5]_Target_num[5]_equal_16_o> created at line 60
+    Found 1-bit comparator equal for signal <First_num[6]_Target_num[6]_equal_19_o> created at line 60
+    Found 1-bit comparator equal for signal <First_num[7]_Target_num[7]_equal_22_o> created at line 60
+    Found 1-bit comparator equal for signal <Second_num[0]_Target_num[0]_equal_25_o> created at line 60
+    Found 1-bit comparator equal for signal <Second_num[1]_Target_num[1]_equal_27_o> created at line 60
+    Found 1-bit comparator equal for signal <Second_num[2]_Target_num[2]_equal_30_o> created at line 60
+    Found 1-bit comparator equal for signal <Second_num[3]_Target_num[3]_equal_33_o> created at line 60
+    Found 1-bit comparator equal for signal <Second_num[4]_Target_num[4]_equal_36_o> created at line 60
+    Found 1-bit comparator equal for signal <Second_num[5]_Target_num[5]_equal_39_o> created at line 60
+    Found 1-bit comparator equal for signal <Second_num[6]_Target_num[6]_equal_42_o> created at line 60
+    Found 1-bit comparator equal for signal <Second_num[7]_Target_num[7]_equal_45_o> created at line 60
+    Found 4-bit comparator lessequal for signal <n0052> created at line 42
+    Found 4-bit comparator lessequal for signal <n0065> created at line 43
+    Found 5-bit comparator lessequal for signal <n0068> created at line 43
+    Summary:
+	inferred  16 Adder/Subtractor(s).
+	inferred  16 D-type flip-flop(s).
+	inferred  19 Comparator(s).
+	inferred  25 Multiplexer(s).
+Unit <correlation> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 16
+ 4-bit adder                                           : 15
+ 5-bit adder                                           : 1
+# Registers                                            : 12
+ 1-bit register                                        : 10
+ 2-bit register                                        : 1
+ 4-bit register                                        : 1
+# Comparators                                          : 19
+ 1-bit comparator equal                                : 16
+ 4-bit comparator lessequal                            : 2
+ 5-bit comparator lessequal                            : 1
+# Multiplexers                                         : 25
+ 1-bit 2-to-1 multiplexer                              : 10
+ 2-bit 2-to-1 multiplexer                              : 1
+ 4-bit 2-to-1 multiplexer                              : 14
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+Synthesizing (advanced) Unit <correlation>.
+The following registers are absorbed into accumulator <ctr>: 1 register on signal <ctr>.
+Unit <correlation> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 15
+ 4-bit adder                                           : 14
+ 5-bit adder                                           : 1
+# Accumulators                                         : 1
+ 4-bit up accumulator                                  : 1
+# Registers                                            : 12
+ Flip-Flops                                            : 12
+# Comparators                                          : 19
+ 1-bit comparator equal                                : 16
+ 4-bit comparator lessequal                            : 2
+ 5-bit comparator lessequal                            : 1
+# Multiplexers                                         : 25
+ 1-bit 2-to-1 multiplexer                              : 10
+ 2-bit 2-to-1 multiplexer                              : 1
+ 4-bit 2-to-1 multiplexer                              : 14
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:1293 - FF/Latch <ctr_0> has a constant value of 0 in block <correlation>. This FF/Latch will be trimmed during the optimization process.
+
+Optimizing unit <correlation> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block correlation, actual ratio is 1.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 15
+ Flip-Flops                                            : 15
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : correlation.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 64
+#      GND                         : 1
+#      INV                         : 2
+#      LUT2                        : 16
+#      LUT3                        : 5
+#      LUT4                        : 1
+#      LUT5                        : 3
+#      LUT6                        : 36
+# FlipFlops/Latches                : 15
+#      FDR                         : 6
+#      FDRE                        : 9
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 37
+#      IBUF                        : 25
+#      OBUF                        : 12
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 6slx16csg324-3 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:              13  out of  18224     0%  
+ Number of Slice LUTs:                   63  out of   9112     0%  
+    Number used as Logic:                63  out of   9112     0%  
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:     63
+   Number with an unused Flip Flop:      50  out of     63    79%  
+   Number with an unused LUT:             0  out of     63     0%  
+   Number of fully used LUT-FF pairs:    13  out of     63    20%  
+   Number of unique control sets:         5
+
+IO Utilization: 
+ Number of IOs:                          38
+ Number of bonded IOBs:                  38  out of    232    16%  
+    IOB Flip Flops/Latches:               2
+
+Specific Feature Utilization:
+ Number of BUFG/BUFGCTRLs:                1  out of     16     6%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clk                                | BUFGP                  | 15    |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -3
+
+   Minimum period: 2.486ns (Maximum Frequency: 402.204MHz)
+   Minimum input arrival time before clock: 9.501ns
+   Maximum output required time after clock: 3.634ns
+   Maximum combinational path delay: No path found
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk'
+  Clock period: 2.486ns (frequency: 402.204MHz)
+  Total number of paths / destination ports: 51 / 22
+-------------------------------------------------------------------------
+Delay:               2.486ns (Levels of Logic = 1)
+  Source:            ctr_3 (FF)
+  Destination:       Out_cr_1 (FF)
+  Source Clock:      clk rising
+  Destination Clock: clk rising
+
+  Data Path: ctr_3 to Out_cr_1
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q             13   0.447   0.932  ctr_3 (ctr_3)
+     INV:I->O              1   0.206   0.579  _n0231_inv1_cepot_INV_0 (_n0231_inv1_cepot)
+     FDRE:CE                   0.322          Out_cr_1
+    ----------------------------------------
+    Total                      2.486ns (0.975ns logic, 1.511ns route)
+                                       (39.2% logic, 60.8% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clk'
+  Total number of paths / destination ports: 8111 / 27
+-------------------------------------------------------------------------
+Offset:              9.501ns (Levels of Logic = 8)
+  Source:            Target_num<4> (PAD)
+  Destination:       Out_cr_7 (FF)
+  Destination Clock: clk rising
+
+  Data Path: Target_num<4> to Out_cr_7
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             6   1.222   0.745  Target_num_4_IBUF (Target_num_4_IBUF)
+     LUT2:I1->O            7   0.205   1.138  Second_num[4]_Target_num[4]_equal_36_o1 (Second_num[4]_Target_num[4]_equal_36_o1)
+     LUT6:I0->O            4   0.203   1.048  Mmux_n017921 (Madd_GND_1_o_GND_1_o_add_39_OUT_lut<1>)
+     LUT6:I0->O            3   0.203   1.015  Mmux_n018321 (Madd_GND_1_o_GND_1_o_add_45_OUT_lut<1>)
+     LUT6:I0->O            3   0.203   0.879  Mmux__n019231 (_n0192<2>)
+     LUT6:I3->O            5   0.205   0.819  GND_1_o_GND_1_o_LessThan_55_o1 (GND_1_o_GND_1_o_LessThan_55_o1)
+     LUT3:I1->O            6   0.203   1.109  GND_1_o_GND_1_o_LessThan_55_o11 (GND_1_o_GND_1_o_LessThan_55_o)
+     LUT6:I0->O            1   0.203   0.000  Out_cr_7_dpot (Out_cr_7_dpot)
+     FDRE:D                    0.102          Out_cr_7
+    ----------------------------------------
+    Total                      9.501ns (2.749ns logic, 6.752ns route)
+                                       (28.9% logic, 71.1% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clk'
+  Total number of paths / destination ports: 12 / 12
+-------------------------------------------------------------------------
+Offset:              3.634ns (Levels of Logic = 1)
+  Source:            Out_cr_9 (FF)
+  Destination:       Out_cr<9> (PAD)
+  Source Clock:      clk rising
+
+  Data Path: Out_cr_9 to Out_cr<9>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDRE:C->Q             2   0.447   0.616  Out_cr_9 (Out_cr_9)
+     OBUF:I->O                 2.571          Out_cr_9_OBUF (Out_cr<9>)
+    ----------------------------------------
+    Total                      3.634ns (3.018ns logic, 0.616ns route)
+                                       (83.0% logic, 17.0% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+Clock to Setup on destination clock clk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk            |    2.486|         |         |         |
+---------------+---------+---------+---------+---------+
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 5.00 secs
+Total CPU time to Xst completion: 5.09 secs
+ 
+--> 
+
+Total memory usage is 4509600 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    3 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+
