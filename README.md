@@ -1,1 +1,1 @@
-# Mini-Projects
+# MiniProjects & HomeWorks
