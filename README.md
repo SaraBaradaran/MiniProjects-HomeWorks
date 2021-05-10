@@ -3,6 +3,10 @@
 ```
 MiniProjects & HomeWorks
 ├── Algorithm Design
+                    ├── BackTracking
+                    ├── Divide & Conquer
+                    ├── Dynamic Programming
+                    ├── Greedy
 ├── C & C++ Programs
 ├── Cryptography
 ├── Data Mining
