@@ -38,7 +38,13 @@ MiniProjects & HomeWorks
                                           └── Matrix Calculator.pdf
 ├── Cryptography
                 ├── HW1
+                       ├── HW1_Question.pdf
+                       └── HW1_Solution.pdf
                 ├── HW2
+                       ├── HW2_Question.pdf
+                       ├── HW2_Solution.pdf
+                       ├── LFSR.py                     
+                       └── Trivium.py
                 ├── HW3
                 ├── HW4
                 ├── HW5
