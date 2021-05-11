@@ -50,4 +50,10 @@ MiniProjects & HomeWorks
                         ├── Lab7
                         ├── Lab8                    
 └── Operating System
+                     ├── HW1
+                     ├── HW2
+                     ├── HW3
+                     ├── HW4
+                     ├── Green Thread Project
+                     ├── Adding Syscall to xv6
 ```
