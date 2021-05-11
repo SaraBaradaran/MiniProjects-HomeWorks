@@ -4,7 +4,15 @@
 MiniProjects & HomeWorks
 ├── Algorithm Design
                     ├── BackTracking
+                                     ├── BackTracking_1.cpp
+                                     ├── BackTracking_1.pdf
+                                     ├── BackTracking_2.cpp
+                                     ├── BackTracking_2.pdf
                     ├── Divide & Conquer
+                                        ├── Divide_&_Conquer_1.cpp
+                                        ├── Divide_&_Conquer_1.pdf
+                                        ├── Divide_&_Conquer_2.cpp
+                                        ├── Divide_&_Conquer_2.pdf                                  
                     ├── Dynamic Programming
                     ├── Greedy
 ├── C & C++ Programs
