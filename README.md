@@ -14,6 +14,16 @@ MiniProjects & HomeWorks
                                         ├── Divide_&_Conquer_2.cpp
                                         ├── Divide_&_Conquer_2.pdf                                  
                     ├── Dynamic Programming
+                                        ├── Dynamic_Programming_1.cpp
+                                        ├── Dynamic_Programming_1.pdf
+                                        ├── Dynamic_Programming_2.cpp
+                                        ├── Dynamic_Programming_2.pdf
+                                        ├── Dynamic_Programming_3.cpp
+                                        ├── Dynamic_Programming_3.pdf
+                                        ├── Dynamic_Programming_4.cpp
+                                        ├── Dynamic_Programming_4.pdf
+                                        ├── Dynamic_Programming_5.cpp
+                                        ├── Dynamic_Programming_5.pdf
                     ├── Greedy
 ├── C & C++ Programs
                     ├── ATM
