@@ -29,9 +29,13 @@ MiniProjects & HomeWorks
                     ├── Link List
                     ├── Queue
                     ├── Winner Tree
-                    ├── Project
-                    ├── HW3
-                    ├── HW4
+                    ├── Organizing_Car_Productors_Project.cpp
+                    ├── Organizing_Car_Productors_Project.pdf
+├── FPGA
+         ├── HW1
+         ├── HW2
+         ├── HW3
+         ├── HW4
 ├── Microprocessor
 ├── Operating System Lab
 └── Operating System
