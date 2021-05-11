@@ -46,7 +46,24 @@ MiniProjects & HomeWorks
 |                |      ├── LFSR.py                     
 |                |      └── Trivium.py
 |                ├── HW3
+|                |      ├── HW3_Question.pdf
+|                |      ├── HW3_Solution.pdf
+|                |      ├── Q7_1_i_firstEncrypthionWithWeakKey.hex
+|                |      ├── Q7_1_i_secondEncryptionWithWeakKey.hex
+|                |      ├── Q7_1_ii_firstEncryptionWithSemiWeakKey.hex
+|                |      ├── Q7_1_ii_secondEncryptionWithSemiWeakKey.hex
+|                |      ├── Q7_2_iv_TripleDESEncryption.hex
+|                |      ├── Q7_2_v_DESEncryption_first.hex
+|                |      ├── Q7_2_v_DESEncryption_second.hex
+|                |      ├── Q7_2_v_DESEncryption_third.hex
+|                |      ├── Q7_2_vi_TripleDESDecryption.hex
+|                |      ├── Q7_3_i_DESXEncryption.hex
+|                |      └── Q7_4_AESEncryption.hex
 |                ├── HW4
+|                |      ├── AES.py
+|                |      ├── HW4_Question.pdf
+|                |      ├── HW4_Solution.pdf
+|                |      └── operatioinModes.ipynb
 |                ├── HW5
 |                ├── HW6
 |                └── HW7
