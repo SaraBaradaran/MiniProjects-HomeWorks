@@ -1,0 +1,35 @@
+import re
+
+#«·›
+p = re.compile('[^aeiou]*a[^aeiou]*e[^aeiou]*i[^aeiou]*o[^aeiou]*u[^aeiou]*')
+m = p.match('aeiou')
+print(m)
+#»
+p1 = re.compile('[a]*[b]*[c]*[d]*[e]*[f]*')
+m = p1.match('abcf')
+print(m)
+#Ã
+p2 = re.compile('(00|0110|(1|010)(1|010))*(1|010)(00)*')
+m = p2.match('11100')
+print(m)
+#œ
+p3 = re.compile('[1]*0(0|10)*1?|[1]*')
+m = p3.match('100101')
+m1 = p3.match('00')
+print(m)
+print(m1)
+#Â
+p4 = re.compile('[1]*[0]*[1]?[0]*')
+m = p4.match('010')
+print(m)
+#Ê
+p5 = re.compile('http[s]?://(?:[a-zA-Z]|[\d]|[$-_@.&+]|[!*(),]|(?:%[\da-fA-F][\da-fA-F]))+')
+m = p5.match('https://www.google.com')
+print(m)
+#“
+p6 = re.compile('[\w_.+-]+[@][\w]+[.][\w.]+')
+m = p6.match('sara.br1378@gmail.com')
+print(m)
+m = p4.match('hofs.doe@somecompony.co.uk')
+print(m)
+
