@@ -1,0 +1,26 @@
+RAM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+numbers                                                                           0x0260      10
+digits                                                                            0x026A       4
+
+EEPROM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+
+Register Allocation
+Variable                                                                          Register  Size
+------------------------------------------------------------------------------------------------
+counter_status                                                                    R5           1
+
+FLASH Allocation [words]
+Function                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+main                                                                              0x00064      9
+ports_setup                                                                       0x0006D     16
+subRoutin_1                                                                       0x0007D     13
+subRoutin_2                                                                       0x0008A     16
+subRoutin_3                                                                       0x0009A      3
+subRoutin_4                                                                       0x0009D     19
+subRoutin_5                                                                       0x000B0    181
+subRoutin_6                                                                       0x00165     21
